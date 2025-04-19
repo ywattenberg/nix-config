@@ -9,9 +9,7 @@
     # do not support .pdf
     foliate
 
-    # instant messaging
-    telegram-desktop
-    # discord # update too frequently, use the web version instead
+    discord # update too frequently, use the web version instead
 
     # remote desktop(rdp connect)
     remmina
@@ -25,7 +23,6 @@
     pkgs.nixpaks.qq
     pkgs.nixpaks.qq-desktop-item
 
-    wechat-uos
     # pkgs.nixpaks.wechat-uos
     # pkgs.nixpaks.wechat-uos-desktop-item
   ];
