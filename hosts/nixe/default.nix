@@ -20,7 +20,7 @@ in {
   networking = {
     inherit hostName;
     inherit (myvars.networking)  nameservers;
-    inherit (myvars.networking.hostsInterface.${hostName}) interfaces;
+    #inherit (myvars.networking.hostsInterface.${hostName}) interfaces;
 
     # desktop need its cli for status bar
     networkmanager.enable = true;
