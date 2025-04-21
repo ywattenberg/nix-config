@@ -808,6 +808,23 @@
         "type": "github"
       }
     },
+    "mysecrets": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1744457617,
+        "narHash": "sha256-nM+iJ2F5TpBEBmWpgCF3+VSqVnvGUjsTwQKQB7hBL5w=",
+        "ref": "refs/heads/main",
+        "rev": "a636f021b43598cd946b023f12aabfd509132c8e",
+        "shallow": true,
+        "type": "git",
+        "url": "ssh://git@github.com/ryan4yin/nix-secrets.git"
+      },
+      "original": {
+        "shallow": true,
+        "type": "git",
+        "url": "ssh://git@github.com/ryan4yin/nix-secrets.git"
+      }
+    },
     "nix": {
       "inputs": {
         "flake-compat": "flake-compat_3",
