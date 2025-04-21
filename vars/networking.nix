@@ -41,7 +41,7 @@
   #   )
   #   hostsAddr;
 
-  # ssh = {
+   ssh = {
     # define the host alias for remote builders
     # this config will be written to /etc/ssh/ssh_config
     # ''
@@ -89,5 +89,5 @@
       #   # kana.publicKey = "";
       # };
 
-  # };
+  };
 }
