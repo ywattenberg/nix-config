@@ -8,9 +8,6 @@
   goBin = "${config.home.homeDirectory}/go/bin";
   rustBin = "${config.home.homeDirectory}/.cargo/bin";
 in {
-  # only works in bash/zsh, not nushell
-  home.shellAliases = shellAliases;
-
   programs.nushell = {
     enable = true;
     package = pkgs-unstable.nushell;
