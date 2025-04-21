@@ -1,6 +1,6 @@
 {
   pkgs,
-  nur-ryan4yin,
+  # nur-ryan4yin,
   ...
 }: {
   # https://github.com/catppuccin/btop/blob/main/themes/catppuccin_mocha.theme
