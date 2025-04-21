@@ -28,7 +28,6 @@
     zsh
     git # used by nix flakes
     git-lfs # used by huggingface models
-    ripgrep # A line-oriented search tool that recursively searches your current directory for a regex pattern 
 
     # archives
     zip
