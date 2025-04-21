@@ -48,11 +48,11 @@
 in {
   nixosConfigurations = {
     # host with hyprland compositor
-    "${name}-hyprland" = mylib.nixosSystem (modules-hyprland // args);
+    "${name}" = mylib.nixosSystem (modules-hyprland // args);
   };
 
   # generate iso image for hosts with desktop environment
   packages = {
-    "${name}-hyprland" = inputs.self.nixosConfigurations."${name}-hyprland".config.formats.iso;
+    "${name}" = inputs.self.nixosConfigurations."${name}".config.formats.iso;
   };
 }

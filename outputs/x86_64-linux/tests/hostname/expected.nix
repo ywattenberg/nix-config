@@ -3,6 +3,7 @@
   outputs,
 }: let
   specialExpected = {
+    "nixe" = "nixe";
     "ai-hyprland" = "ai";
     "shoukei-hyprland" = "shoukei";
   };
