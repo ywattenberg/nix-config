@@ -19,7 +19,7 @@
     alsa.support32Bit = true;
     pulse.enable = true;
     # If you want to use JACK applications, uncomment this
-    jack.enable = true;
+    # jack.enable = true;
     wireplumber.enable = true;
   };
   # rtkit is optional but recommended
@@ -57,18 +57,5 @@
       android-udev-rules # required by adb
       openfpgaloader
     ];
-
-    # A key remapping daemon for linux.
-    # https://github.com/rvaiya/keyd
-    keyd = {
-      enable = true;
-      keyboards.default.settings = {
-        main = {
-          # overloads the capslock key to function as both escape (when tapped) and control (when held)
-          capslock = "overload(control, esc)";
-          esc = "capslock";
-        };
-      };
-    };
   };
 }
